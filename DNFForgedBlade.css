@@ -1,11 +1,30 @@
-@font-face{
-font-family:'DNFForgedBlade';font-style:normal;font-weight:300;
-src:url('//cdn.df.nexon.com/img/common/font/DNFForgedBlade-Light.otf')format('opentype')}
-
-@font-face{
-font-family:'DNFForgedBlade';font-style:normal;font-weight:500;
-src:url('//cdn.df.nexon.com/img/common/font/DNFForgedBlade-Medium.otf')format('opentype')}
-
-@font-face{
-font-family:'DNFForgedBlade';font-style:normal;font-weight:700;
-src:url('//cdn.df.nexon.com/img/common/font/DNFForgedBlade-Bold.otf')format('opentype')}
+@font-face {
+    font-family: 'DNFForgedBlade';
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+    src: url('https://cdn.jsdelivr.net/gh/fonts-archive/DNFForgedBlade/DNFForgedBlade-Light.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/fonts-archive/DNFForgedBlade/DNFForgedBlade-Light.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/fonts-archive/DNFForgedBlade/DNFForgedBlade-Light.otf') format('opentype'),
+         url('https://cdn.jsdelivr.net/gh/fonts-archive/DNFForgedBlade/DNFForgedBlade-Light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'DNFForgedBlade';
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+    src: url('https://cdn.jsdelivr.net/gh/fonts-archive/DNFForgedBlade/DNFForgedBlade-Medium.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/fonts-archive/DNFForgedBlade/DNFForgedBlade-Medium.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/fonts-archive/DNFForgedBlade/DNFForgedBlade-Medium.otf') format('opentype'),
+         url('https://cdn.jsdelivr.net/gh/fonts-archive/DNFForgedBlade/DNFForgedBlade-Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'DNFForgedBlade';
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    src: url('https://cdn.jsdelivr.net/gh/fonts-archive/DNFForgedBlade/DNFForgedBlade-Bold.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/fonts-archive/DNFForgedBlade/DNFForgedBlade-Bold.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/fonts-archive/DNFForgedBlade/DNFForgedBlade-Bold.otf') format('opentype'),
+         url('https://cdn.jsdelivr.net/gh/fonts-archive/DNFForgedBlade/DNFForgedBlade-Bold.ttf') format('truetype');
+}
